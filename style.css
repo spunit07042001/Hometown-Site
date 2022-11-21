@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#intro{
+    background-image: url("image/hawamahal.jpg");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+
+}
+
+
+#title {
+    text-shadow: 0px 0px 4px black;
+    display: block;
+    padding: 100px auto 10px auto;
+}
+.about{
+    display: block;
+    margin: 10px auto 10px auto;
+    color: #ed3a03;
+    font-size: 25px;
+}
+.activitiesSection{
+    background-color: rgb(168, 201, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.activityTitle{
+    text-align: center;
+   
+}
+.activityColumns{ 
+    display: flex;
+    flex-direction: row;
+    padding: 30px; 
+ 
+}
+.topActivities{
+    margin:10px;
+      
+}
+.activityImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+
+}
+
+
+.avatar {
+    width: 200px;
+   
+}
+.cardBg
+{
+    background-color:  rgb(189, 195, 195);
+    padding: 20px;
+}
+.card {
+    width: 400px;
+    margin: 0px  auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #d96710;
+    color: #2b2839;
+    border-bottom: 6px solid #1aca37;
+      
+}
+
+ 
